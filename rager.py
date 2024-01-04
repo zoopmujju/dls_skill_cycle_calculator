@@ -28,3 +28,6 @@ total_time_seconds = int(input("Enter the total time in seconds: "))
 
 result = skill_cycle_calculator(default_rage_per_second, rage_added_after_skill, skill_threshold, total_time_seconds)
 print(f"Number of skill cycles in {total_time_seconds} seconds: {result}")
+
+
+input("Press Enter to exit...")
